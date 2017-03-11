@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vapegate-dev
+  host: vapegate-dev
+  disk_quota: 1024M
+  services:
+  - vapegate-dev-cloudantNoSQLDB
+  - vapegate-dev-iotf-service
